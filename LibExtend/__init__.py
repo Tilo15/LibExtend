@@ -14,7 +14,6 @@ class ExtensionCatalogue:
         for directiory in directiories:
             # Find all extension descriptor files under the namespace
             descriptor_files += glob.glob(directiory + "/**.ledr")
-            print(descriptor_files)
 
         if(search_system):
             # Find all in system dir
